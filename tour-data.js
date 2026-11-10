@@ -1,0 +1,524 @@
+window.TOUR_DATA = {
+  "manifestVersion": "1.0.0",
+  "id": "17e71264-9234-4522-93a0-79ccef9c8787",
+  "title": "fikom",
+  "slug": "fikom",
+  "description": "",
+  "startSceneId": "6d5a3271-71db-4e39-9e68-a4580dd15598",
+  "exportedAt": "2026-11-10T09:42:33.941Z",
+  "scenes": [
+    {
+      "id": "6d5a3271-71db-4e39-9e68-a4580dd15598",
+      "name": "gerbang",
+      "description": null,
+      "sceneType": "OUTDOOR",
+      "initialYaw": 0,
+      "initialPitch": 0,
+      "initialFov": 1.05,
+      "panoramaUrl": "./panoramas/scene-4582cf48e931fa8a.jpeg",
+      "thumbnailUrl": "./thumbnails/scene-044e6828362603a1.webp",
+      "buildingId": null,
+      "floorId": null,
+      "hotspots": [
+        {
+          "id": "516b675a-e398-4394-a10a-8d6ddd2beb87",
+          "type": "NAVIGATION",
+          "yaw": -1.365467113012502,
+          "pitch": 0,
+          "targetYaw": null,
+          "targetPitch": null,
+          "targetSceneId": "6d3800d5-8bf8-44bd-916f-21e990a733ae",
+          "targetSceneName": "halam depan fikom",
+          "label": "Kembali ke Masuk ke gerbang",
+          "icon": "arrow-down",
+          "contentJson": null
+        },
+        {
+          "id": "8a2ad764-ecf4-439c-9346-13ed635f1899",
+          "type": "NAVIGATION",
+          "yaw": -2.27561801483836,
+          "pitch": 0,
+          "targetYaw": null,
+          "targetPitch": null,
+          "targetSceneId": "5ec7846a-ecda-4acd-aa44-3d5d31a1a2e5",
+          "targetSceneName": "perpustakaan",
+          "label": "Kembali ke perpustakaan",
+          "icon": "arrow-down",
+          "contentJson": null
+        },
+        {
+          "id": "df026264-8394-424e-8821-ab5b6755b0db",
+          "type": "NAVIGATION",
+          "yaw": -2.588096034436667,
+          "pitch": 0.4660196112083828,
+          "targetYaw": null,
+          "targetPitch": null,
+          "targetSceneId": "6d3800d5-8bf8-44bd-916f-21e990a733ae",
+          "targetSceneName": "halam depan fikom",
+          "label": "Masuk ke halam depan fikom",
+          "icon": "door",
+          "contentJson": {
+            "buttonStyle": "chevron",
+            "buttonSize": "md",
+            "colorTheme": "emerald",
+            "icon": "door",
+            "alwaysShowLabel": true,
+            "pulseAnimation": true,
+            "subtitle": ""
+          }
+        },
+        {
+          "id": "e93172ea-3d60-41f0-aeca-f54ca1f21b65",
+          "type": "NAVIGATION",
+          "yaw": -0.3129323451185577,
+          "pitch": 0,
+          "targetYaw": null,
+          "targetPitch": null,
+          "targetSceneId": "7fd2eacb-2935-4d9a-a87b-5fa021f6c5c0",
+          "targetSceneName": "prodi",
+          "label": "Kembali ke prodi",
+          "icon": "arrow-down",
+          "contentJson": null
+        }
+      ]
+    },
+    {
+      "id": "6d3800d5-8bf8-44bd-916f-21e990a733ae",
+      "name": "halam depan fikom",
+      "description": null,
+      "sceneType": "OUTDOOR",
+      "initialYaw": 0,
+      "initialPitch": 0,
+      "initialFov": 1.05,
+      "panoramaUrl": "./panoramas/scene-56d6a77b8ede6cf6.jpeg",
+      "thumbnailUrl": "./thumbnails/scene-1bf456375973258c.webp",
+      "buildingId": null,
+      "floorId": null,
+      "hotspots": [
+        {
+          "id": "1cc55dda-9343-43b4-a8e2-d5d16d7ddf94",
+          "type": "NAVIGATION",
+          "yaw": 3.040800068976587,
+          "pitch": 0.07745313362049266,
+          "targetYaw": null,
+          "targetPitch": null,
+          "targetSceneId": "6d5a3271-71db-4e39-9e68-a4580dd15598",
+          "targetSceneName": "gerbang",
+          "label": "Masuk ke gerbang",
+          "icon": "arrow-right",
+          "contentJson": {
+            "buttonStyle": "chevron",
+            "buttonSize": "md",
+            "colorTheme": "emerald",
+            "icon": "arrow-right",
+            "alwaysShowLabel": true,
+            "pulseAnimation": true,
+            "subtitle": ""
+          }
+        },
+        {
+          "id": "682bdba9-b586-4346-918e-e23fcd7ffa23",
+          "type": "NAVIGATION",
+          "yaw": -1.54159,
+          "pitch": 0.05,
+          "targetYaw": null,
+          "targetPitch": null,
+          "targetSceneId": "5ec7846a-ecda-4acd-aa44-3d5d31a1a2e5",
+          "targetSceneName": "perpustakaan",
+          "label": "Masuk ke gerbang",
+          "icon": "arrow-right",
+          "contentJson": {
+            "buttonStyle": "chevron",
+            "buttonSize": "md",
+            "colorTheme": "emerald",
+            "icon": "arrow-right",
+            "alwaysShowLabel": true,
+            "pulseAnimation": true,
+            "subtitle": ""
+          }
+        },
+        {
+          "id": "7d1e8eed-af1b-4f70-b947-5e1c7ca87892",
+          "type": "NAVIGATION",
+          "yaw": 1.776125540577291,
+          "pitch": 0.0713031558681152,
+          "targetYaw": null,
+          "targetPitch": null,
+          "targetSceneId": "7fd2eacb-2935-4d9a-a87b-5fa021f6c5c0",
+          "targetSceneName": "prodi",
+          "label": "Masuk ke gerbang",
+          "icon": "door",
+          "contentJson": {
+            "buttonStyle": "beacon",
+            "buttonSize": "md",
+            "colorTheme": "amber",
+            "icon": "door",
+            "alwaysShowLabel": true,
+            "pulseAnimation": true,
+            "subtitle": ""
+          }
+        },
+        {
+          "id": "a634e726-bab6-4ba6-b404-0ee5136b9031",
+          "type": "NAVIGATION",
+          "yaw": -2.330452697798078,
+          "pitch": 0.01161854517146566,
+          "targetYaw": null,
+          "targetPitch": null,
+          "targetSceneId": "8c7bd51e-0750-462f-8a03-e4313c1cc320",
+          "targetSceneName": "dalam lab",
+          "label": "Masuk ke gerbang",
+          "icon": "arrow-right",
+          "contentJson": {
+            "buttonStyle": "chevron",
+            "buttonSize": "md",
+            "colorTheme": "indigo",
+            "icon": "arrow-right",
+            "alwaysShowLabel": true,
+            "pulseAnimation": true,
+            "subtitle": ""
+          }
+        },
+        {
+          "id": "d22635f3-6c7f-4cae-958a-ea0c9123d26c",
+          "type": "NAVIGATION",
+          "yaw": 2.69028003616291,
+          "pitch": 0,
+          "targetYaw": null,
+          "targetPitch": null,
+          "targetSceneId": "8c7bd51e-0750-462f-8a03-e4313c1cc320",
+          "targetSceneName": "dalam lab",
+          "label": "Kembali ke dalam lab",
+          "icon": "arrow-down",
+          "contentJson": null
+        }
+      ]
+    },
+    {
+      "id": "7fd2eacb-2935-4d9a-a87b-5fa021f6c5c0",
+      "name": "prodi",
+      "description": null,
+      "sceneType": "OUTDOOR",
+      "initialYaw": 0,
+      "initialPitch": 0,
+      "initialFov": 1.05,
+      "panoramaUrl": "./panoramas/scene-90fc994fe1705eeb.jpeg",
+      "thumbnailUrl": "./thumbnails/scene-3d5f712d84a5a250.webp",
+      "buildingId": null,
+      "floorId": null,
+      "hotspots": [
+        {
+          "id": "876cf9ae-e303-43f1-bccf-76d851d96572",
+          "type": "NAVIGATION",
+          "yaw": -0.44159,
+          "pitch": 0.1,
+          "targetYaw": null,
+          "targetPitch": null,
+          "targetSceneId": "7df2657f-a3d0-4df1-83c3-ad25f788e9b7",
+          "targetSceneName": "ruang yayasan",
+          "label": "Masuk ke ruang yayasan",
+          "icon": "door",
+          "contentJson": {
+            "buttonStyle": "chevron",
+            "buttonSize": "md",
+            "colorTheme": "emerald",
+            "icon": "door",
+            "alwaysShowLabel": true,
+            "pulseAnimation": true,
+            "subtitle": ""
+          }
+        },
+        {
+          "id": "ee35eefd-81ca-45fa-a964-33aaf458b6e4",
+          "type": "NAVIGATION",
+          "yaw": 2.828660308471235,
+          "pitch": 0.6311753777300595,
+          "targetYaw": null,
+          "targetPitch": null,
+          "targetSceneId": "6d5a3271-71db-4e39-9e68-a4580dd15598",
+          "targetSceneName": "gerbang",
+          "label": "Masuk ke gerbang",
+          "icon": "door",
+          "contentJson": {
+            "buttonStyle": "chevron",
+            "buttonSize": "md",
+            "colorTheme": "emerald",
+            "icon": "door",
+            "alwaysShowLabel": true,
+            "pulseAnimation": true,
+            "subtitle": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "8c7bd51e-0750-462f-8a03-e4313c1cc320",
+      "name": "dalam lab",
+      "description": null,
+      "sceneType": "OUTDOOR",
+      "initialYaw": 0,
+      "initialPitch": 0,
+      "initialFov": 1.05,
+      "panoramaUrl": "./panoramas/scene-732c674a693d586d.jpeg",
+      "thumbnailUrl": "./thumbnails/scene-d9a1cb40945b6a9b.webp",
+      "buildingId": null,
+      "floorId": null,
+      "hotspots": [
+        {
+          "id": "9e037a4f-ab65-4c25-bd34-7fccb9c7de8d",
+          "type": "NAVIGATION",
+          "yaw": -0.4513126174268827,
+          "pitch": 0.1625919065413903,
+          "targetYaw": null,
+          "targetPitch": null,
+          "targetSceneId": "6d3800d5-8bf8-44bd-916f-21e990a733ae",
+          "targetSceneName": "halam depan fikom",
+          "label": "Masuk ke halam depan fikom",
+          "icon": "door",
+          "contentJson": {
+            "buttonStyle": "chevron",
+            "buttonSize": "md",
+            "colorTheme": "emerald",
+            "icon": "door",
+            "alwaysShowLabel": true,
+            "pulseAnimation": true,
+            "subtitle": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "5ec7846a-ecda-4acd-aa44-3d5d31a1a2e5",
+      "name": "perpustakaan",
+      "description": null,
+      "sceneType": "OUTDOOR",
+      "initialYaw": 0,
+      "initialPitch": 0,
+      "initialFov": 1.05,
+      "panoramaUrl": "./panoramas/scene-272932fa088cd9b5.jpeg",
+      "thumbnailUrl": "./thumbnails/scene-1ec2907cb183191e.webp",
+      "buildingId": null,
+      "floorId": null,
+      "hotspots": [
+        {
+          "id": "1538c864-1f46-49d1-9174-23f542499a77",
+          "type": "NAVIGATION",
+          "yaw": 0.8659746387514335,
+          "pitch": 0.4721630895731934,
+          "targetYaw": null,
+          "targetPitch": null,
+          "targetSceneId": "6d5a3271-71db-4e39-9e68-a4580dd15598",
+          "targetSceneName": "gerbang",
+          "label": "Masuk ke gerbang",
+          "icon": "door",
+          "contentJson": {
+            "buttonStyle": "chevron",
+            "buttonSize": "md",
+            "colorTheme": "emerald",
+            "icon": "door",
+            "alwaysShowLabel": true,
+            "pulseAnimation": true,
+            "subtitle": ""
+          }
+        },
+        {
+          "id": "1c060a9a-2ae2-4f42-880d-bc710bc52eee",
+          "type": "NAVIGATION",
+          "yaw": 0.4292423219552823,
+          "pitch": 0,
+          "targetYaw": null,
+          "targetPitch": null,
+          "targetSceneId": "ae55dfc4-5715-4bd2-9349-fb33df127c0b",
+          "targetSceneName": "runag sripsi",
+          "label": "Kembali ke runag sripsi",
+          "icon": "arrow-down",
+          "contentJson": null
+        },
+        {
+          "id": "2880f859-dadd-4cc7-b620-f8203941b8a0",
+          "type": "NAVIGATION",
+          "yaw": 3.061369006979611,
+          "pitch": -0.08656733659302773,
+          "targetYaw": null,
+          "targetPitch": null,
+          "targetSceneId": "a6f872f0-88ec-440d-9859-fe6ebfd4bece",
+          "targetSceneName": "ruang buku",
+          "label": "Masuk ke ruang buku",
+          "icon": "door",
+          "contentJson": {
+            "buttonStyle": "chevron",
+            "buttonSize": "md",
+            "colorTheme": "emerald",
+            "icon": "door",
+            "alwaysShowLabel": true,
+            "pulseAnimation": true,
+            "subtitle": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "ae55dfc4-5715-4bd2-9349-fb33df127c0b",
+      "name": "runag sripsi",
+      "description": null,
+      "sceneType": "OUTDOOR",
+      "initialYaw": 0,
+      "initialPitch": 0,
+      "initialFov": 1.05,
+      "panoramaUrl": "./panoramas/scene-a0c364546e418e41.jpeg",
+      "thumbnailUrl": "./thumbnails/scene-b292f1f699628d13.webp",
+      "buildingId": null,
+      "floorId": null,
+      "hotspots": [
+        {
+          "id": "0abf6c60-f345-4240-999b-b383d87476c9",
+          "type": "NAVIGATION",
+          "yaw": -2.712350331634511,
+          "pitch": 0.4241626797582576,
+          "targetYaw": null,
+          "targetPitch": null,
+          "targetSceneId": "5ec7846a-ecda-4acd-aa44-3d5d31a1a2e5",
+          "targetSceneName": "perpustakaan",
+          "label": "Masuk ke perpustakaan",
+          "icon": "door",
+          "contentJson": {
+            "buttonStyle": "chevron",
+            "buttonSize": "md",
+            "colorTheme": "emerald",
+            "icon": "door",
+            "alwaysShowLabel": true,
+            "pulseAnimation": true,
+            "subtitle": ""
+          }
+        },
+        {
+          "id": "5d037651-7808-4195-84e2-b072b26f8be9",
+          "type": "NAVIGATION",
+          "yaw": -2.23172196746113,
+          "pitch": 0.6239438045929155,
+          "targetYaw": null,
+          "targetPitch": null,
+          "targetSceneId": "a6f872f0-88ec-440d-9859-fe6ebfd4bece",
+          "targetSceneName": "ruang buku",
+          "label": "Masuk ke ruang buku",
+          "icon": "door",
+          "contentJson": {
+            "buttonStyle": "chevron",
+            "buttonSize": "md",
+            "colorTheme": "emerald",
+            "icon": "door",
+            "alwaysShowLabel": true,
+            "pulseAnimation": true,
+            "subtitle": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "a6f872f0-88ec-440d-9859-fe6ebfd4bece",
+      "name": "ruang buku",
+      "description": null,
+      "sceneType": "OUTDOOR",
+      "initialYaw": 0,
+      "initialPitch": 0,
+      "initialFov": 1.05,
+      "panoramaUrl": "./panoramas/scene-efc48cf616440a52.jpeg",
+      "thumbnailUrl": "./thumbnails/scene-6248b89e3bb31fd3.webp",
+      "buildingId": null,
+      "floorId": null,
+      "hotspots": [
+        {
+          "id": "ae2b7aff-d231-49eb-81d8-579dc215a391",
+          "type": "NAVIGATION",
+          "yaw": 0.909870686128663,
+          "pitch": 0,
+          "targetYaw": null,
+          "targetPitch": null,
+          "targetSceneId": "ae55dfc4-5715-4bd2-9349-fb33df127c0b",
+          "targetSceneName": "runag sripsi",
+          "label": "Kembali ke runag sripsi",
+          "icon": "arrow-down",
+          "contentJson": null
+        },
+        {
+          "id": "fd625c26-87d4-42fe-b12a-2cd6d74a5574",
+          "type": "NAVIGATION",
+          "yaw": 0.2854003687984985,
+          "pitch": 0.5833770234978157,
+          "targetYaw": null,
+          "targetPitch": null,
+          "targetSceneId": "5ec7846a-ecda-4acd-aa44-3d5d31a1a2e5",
+          "targetSceneName": "perpustakaan",
+          "label": "Masuk ke perpustakaan",
+          "icon": "arrow-down",
+          "contentJson": {
+            "buttonStyle": "chevron",
+            "buttonSize": "md",
+            "colorTheme": "indigo",
+            "icon": "arrow-down",
+            "alwaysShowLabel": true,
+            "pulseAnimation": true,
+            "subtitle": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "16dab3d6-5fea-4f6f-b696-2ea75b019e75",
+      "name": "yayasan",
+      "description": null,
+      "sceneType": "OUTDOOR",
+      "initialYaw": 0,
+      "initialPitch": 0,
+      "initialFov": 1.05,
+      "panoramaUrl": "./panoramas/scene-07ce8aa4b411f28c.jpeg",
+      "thumbnailUrl": "./thumbnails/scene-01eef3d1d9595726.webp",
+      "buildingId": null,
+      "floorId": null,
+      "hotspots": []
+    },
+    {
+      "id": "909970ab-44ea-44af-909e-d28c560a8ee7",
+      "name": "halaman yayasan",
+      "description": null,
+      "sceneType": "OUTDOOR",
+      "initialYaw": 0,
+      "initialPitch": 0,
+      "initialFov": 1.05,
+      "panoramaUrl": "./panoramas/scene-903f0e2a6dd70b84.jpeg",
+      "thumbnailUrl": "./thumbnails/scene-d913abf627c7e0f0.webp",
+      "buildingId": null,
+      "floorId": null,
+      "hotspots": []
+    },
+    {
+      "id": "7df2657f-a3d0-4df1-83c3-ad25f788e9b7",
+      "name": "ruang yayasan",
+      "description": null,
+      "sceneType": "OUTDOOR",
+      "initialYaw": 0,
+      "initialPitch": 0,
+      "initialFov": 1.05,
+      "panoramaUrl": "./panoramas/scene-9ea9e97f84f56eae.jpeg",
+      "thumbnailUrl": "./thumbnails/scene-d3021edc516e6107.webp",
+      "buildingId": null,
+      "floorId": null,
+      "hotspots": [
+        {
+          "id": "c79831d2-21e5-49c0-b110-f4b47e67b1d5",
+          "type": "NAVIGATION",
+          "yaw": 2.700002653589793,
+          "pitch": 0,
+          "targetYaw": null,
+          "targetPitch": null,
+          "targetSceneId": "7fd2eacb-2935-4d9a-a87b-5fa021f6c5c0",
+          "targetSceneName": "prodi",
+          "label": "Kembali ke prodi",
+          "icon": "arrow-down",
+          "contentJson": null
+        }
+      ]
+    }
+  ],
+  "buildings": []
+};
